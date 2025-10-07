@@ -115,10 +115,10 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600"
                     >
-                      RPNGC - Digital Policing System
+                      RPNGC - Digital Policing AI Cybercrime System
                     </a>
                     <a
-                      href="https://cybercrime-3h6o.vercel.app/dashboard"
+                      href="https://pngcybercime.netlify.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600"
