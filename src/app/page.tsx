@@ -159,7 +159,7 @@ export default function Home() {
                       PNG Child Immunization System
                     </a>
                     <a
-                      href="https://pngroadsystems.vercel.app/"
+                      href="https://connectpng.netlify.app/" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600"
@@ -510,7 +510,7 @@ export default function Home() {
               {
                 name: "PNG Connect Program",
                 description: "Infrastructure and connectivity management platform",
-                url: "https://pngroadsystems.vercel.app/",
+                url: "https://connectpng.netlify.app/"
                 category: "Infrastructure",
                 status: "Live"
               },
