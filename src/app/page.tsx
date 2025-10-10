@@ -156,7 +156,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600"
                     >
-                      PNG Child Immunization System xxxxxxxxxxxxxxxx
+                      PNG Child Immunization System
                     </a>
                     <a
                       href="https://connectpng.netlify.app/" 
@@ -510,7 +510,7 @@ export default function Home() {
               {
                 name: "PNG Connect Program",
                 description: "Infrastructure and connectivity management platform",
-                url: "https://connectpng.netlify.app/"
+                url: "https://connectpng.netlify.app/",
                 category: "Infrastructure",
                 status: "Live"
               },
