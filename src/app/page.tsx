@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import Image from "next/image";
 
 export default function Home() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -24,8 +25,16 @@ export default function Home() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">L</span>
+              {/* Replaced placeholder with real logo */}
+              <div className="flex items-center">
+                <Image
+                  src="/logo.png"
+                  alt="Lagoon Technologies PNG Logo"
+                  width={50}
+                  height={50}
+                  priority
+                  className="rounded-full border border-green-200 shadow-sm"
+                />
               </div>
               <div>
                 <div className="text-xl font-bold text-gray-900">LAGOON</div>
@@ -125,7 +134,7 @@ export default function Home() {
                     >
                       ALEMS - Advanced Law Enforcement Cybercrime Management System
                     </a>
-                     <a
+                    <a
                       href="https://pngdigital.netlify.app/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -141,11 +150,6 @@ export default function Home() {
                     >
                       PNG Cybersecurity Resource Hub
                     </a>
-                    
-                    
-                    
-                    
-                    
                     <a
                       href="https://immunization.vercel.app/"
                       target="_blank"
@@ -761,8 +765,15 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">L</span>
+                {/* Replaced footer placeholder with real logo */}
+                <div className="flex items-center">
+                  <Image
+                    src="/logo.png"
+                    alt="Lagoon Technologies PNG Logo"
+                    width={40}
+                    height={40}
+                    className="rounded-full border border-green-500/40"
+                  />
                 </div>
                 <div>
                   <div className="text-lg font-bold">LAGOON</div>
