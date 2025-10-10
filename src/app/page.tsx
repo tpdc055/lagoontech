@@ -123,8 +123,29 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600"
                     >
-                      ALEMS - Advanced Law Enforcement Management System
+                      ALEMS - Advanced Law Enforcement Cybercrime Management System
                     </a>
+                     <a
+                      href="https://pngdigital.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600"
+                    >
+                      National Goverrnment Portal System
+                    </a>
+                    <a
+                      href="https://pngcsc.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600"
+                    >
+                      PNG Cybersecurity Resource Hub
+                    </a>
+                    
+                    
+                    
+                    
+                    
                     <a
                       href="https://immunization.vercel.app/"
                       target="_blank"
