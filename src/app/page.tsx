@@ -164,7 +164,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600"
                     >
-                      PNG Connect Program
+                      PNG Connect Road Management System
                     </a>
                     <a
                       href="https://studentservices-seven.vercel.app/"
